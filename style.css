@@ -1,0 +1,78 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+.container {
+    width: 60%; 
+    margin: auto;
+    margin-top: 32px;
+    padding: 100px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.350);
+    border-radius: 16px;
+}
+
+header  img {
+    width: 300px;
+}
+
+header h1 {
+    color: rgb(50, 255, 0);
+    font-size: 50px;
+    font-weight: lighter;
+    margin: 10px;
+}
+
+.container nav {
+    background-color: rgb(50, 255, 0);
+    padding: 16px;
+    width: 80%;
+    margin: auto;
+}
+
+.mezzi {
+    width: 80%;
+    margin: auto;
+    color: white;
+    text-align: left;
+}
+
+.mezzi > h2 {
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.mezzi h4 {
+    margin-top: 10px;
+}
+
+.mezzi  #battery1 {
+    background-color: orange;
+    width: 350px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.mezzi  #battery2 {
+    background-color: green;
+    width: 750px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.mezzi  #battery3 {
+    background-color: red;
+    width: 150px;
+    height: 30px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
